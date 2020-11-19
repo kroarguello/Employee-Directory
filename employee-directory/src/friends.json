@@ -1,0 +1,96 @@
+[
+  {
+    "id": 1,
+    "name": "Mattew",
+    "lastname": "Oballe",
+    "department": "Kitchen",
+    "ocupation": "cook",
+    "location": "Austin"
+  },
+  {
+    "id": 2,
+    "name": "Mark",
+    "lastname": "Aguilar",
+    "department": "Kitchen",
+    "ocupation": "cook",
+    "location": "Austin"  },
+  {
+    "id": 3,
+    "name": "Caroline",
+    "lastname": "Miller",
+    "department": "Kitchen",
+    "ocupation": "chef",
+    "location": "Austin"
+  },
+  {
+    "id": 4,
+    "name": "Ej",
+    "lastname": "Kenelly",
+    "department": "Human Resource",
+    "ocupation": "Manager",
+    "location": "Houston"
+  },
+  {
+    "id": 5,
+    "name": "Sean",
+    "lastname": "Fleming",
+    "department": "Human Resource",
+    "ocupation": "Assistant Manager",
+    "location": "Austin"
+  },
+  {
+    "id": 6,
+    "name": "Christian",
+    "lastname": "Scott",
+    "department": "Kitchen",
+    "ocupation": "chef",
+    "location": "Houston"
+  },
+  {
+    "id": 7,
+    "name": "Mario",
+    "lastname": "Gutierrez",
+    "department": "Sales",
+    "ocupation": "Sales Manager",
+    "location": "Houston"
+  },
+  {
+    "id": 8,
+    "name": "Austin",
+    "lastname": "Parmer",
+    "department": "Kitchen",
+    "ocupation": "cook",
+    "location": "Houston"
+  },
+  {
+    "id": 9,
+    "name": "Eric",
+    "lastname": "Aguilar",
+    "department": "Sales",
+    "ocupation": "Sales Manager",
+    "location": "Austin"
+  },
+  {
+    "id": 10,
+    "name": "Aidan",
+    "lastname": "Manning",
+    "department": "Kitchen",
+    "ocupation": "cook",
+    "location": "Houston"
+  },
+  {
+    "id": 11,
+    "name": "Vicent",
+    "lastname": "Diaz",
+    "department": "Kitchen",
+    "ocupation": "cook",
+    "location": "Houston"  },
+  {
+    "id": 12,
+    "name": "Ted",
+    "lastname": "Martinez",
+    "department": "Kitchen",
+    "ocupation": "chef",
+    "location": "Austin"
+  }
+]
