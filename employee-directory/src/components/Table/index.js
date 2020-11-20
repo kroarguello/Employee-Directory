@@ -1,17 +1,25 @@
-import React from "react";
+import React, {useState}from "react";
 
-import "./style.css";
+//import "./style.css";
 
-function Table(props) {
+function Table() {
+
+  const[sort, setSort]=useState("id");
+  const sortBy = event => {
+    setSort(event.target.id);
+    console.log (sort);
+  }
+
+
   return (
      
  <thead>
-          <tr>
-      <th>First Name</th>
-      <th>Last Name</th>
-      <th>Department</th>
-      <th>Ocupation</th>
-      <th>Location</th>  
+      <tr>
+      <th><span onClick={sortBy} id="name" >First Name</span></th>
+      <th><span onClick={sortBy} id="lastname" >Last Name</span></th>
+      <th><span onClick={sortBy} id="department">Department</span></th>
+      <th><span onClick={sortBy} id="ocupation">Ocupation</span></th>
+      <th><span onClick={sortBy} id="location">Location</span></th>  
     </tr>
     </thead>
 
