@@ -31,7 +31,7 @@ class App extends Component {
     
     return (
       <Wrapper>
-        <Title> Employee Tracker</Title>
+        <Title> Employee Directory</Title>
           
         <table className="table">
         <Table></Table>
