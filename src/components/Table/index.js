@@ -1,17 +1,23 @@
 import React, {useState}from "react";
 //import employees from "./src/employees.json";
 
-function Table() {
+function Table(state) {
 
   const[sortid, setSortid]=useState("id");
+  const[employees, setEmployees]=useState("employees");
   //const[employees, setEmployees]=useState(employees)
   const sortBy = event => {
   setSortid(event.target.id);
+  setEmployees(event.target.id);
   console.log (sortid);
+  console.log (employees);
+  console.log(setEmployees);
   
   //sorting employees 
-  const sortedList = [...employees].sort((a,b)=> (a.sortid > b.sortid ? 1 : a.sortid < b.sortid ? -1 : 0))
+ // const sortedList = [...employees].sort((a,b)=> (a.sortid > b.sortid ? 1 : a.sortid < b.sortid ? -1 : 0))
   
+
+
     
   }
 
