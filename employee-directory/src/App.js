@@ -16,8 +16,6 @@ class App extends Component {
 /* const employees = () => {
    const [list, setList] = useState ([employees])
  }
-
-
   useEffect(()=>{
    
     sortid = "name";
@@ -26,8 +24,8 @@ class App extends Component {
     setList(sortedList)
 
   },[])
-
-*/  
+*/
+  
   render() {
     
     
