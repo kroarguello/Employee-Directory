@@ -1,19 +1,25 @@
 import React, {useState}from "react";
-
-//import "./style.css";
+//import employees from "./src/employees.json";
 
 function Table() {
 
-  const[sort, setSort]=useState("id");
+  const[sortid, setSortid]=useState("id");
+  //const[employees, setEmployees]=useState(employees)
   const sortBy = event => {
-    setSort(event.target.id);
-    console.log (sort);
+  setSortid(event.target.id);
+  console.log (sortid);
+  
+  //sorting employees 
+  const sortedList = [...employees].sort((a,b)=> (a.sortid > b.sortid ? 1 : a.sortid < b.sortid ? -1 : 0))
+  
+    
   }
 
 
   return (
      
  <thead>
+      <h2>Ordenado por {sortid}</h2>
       <tr>
       <th><span onClick={sortBy} id="name" >First Name</span></th>
       <th><span onClick={sortBy} id="lastname" >Last Name</span></th>
@@ -22,7 +28,7 @@ function Table() {
       <th><span onClick={sortBy} id="location">Location</span></th>  
     </tr>
     </thead>
-
+  
     
   );
 }
