@@ -25,7 +25,7 @@ function Table(state) {
   return (
      
  <thead>
-      <h2>Ordenado por {sortid}</h2>
+      <h2>Sort By  {sortid}</h2>
       <tr>
       <th><span onClick={sortBy} id="name" >First Name</span></th>
       <th><span onClick={sortBy} id="lastname" >Last Name</span></th>
