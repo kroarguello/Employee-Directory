@@ -4,6 +4,7 @@ import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import employees from "./employees.json";
 import Table from "./components/Table";
+//import SortBy from "./components/OrderBy";
 
 
 class App extends Component {
@@ -13,26 +14,16 @@ class App extends Component {
    employees
   };
 
-/* const employees = () => {
-   const [list, setList] = useState ([employees])
- }
-  useEffect(()=>{
-   
-    sortid = "name";
-
-    const sortedList = [...employees].sort((a,b)=> (a.sortid > b.sortid ? 1 : a.sortid < b.sortid ? -1 : 0))
-    setList(sortedList)
-
-  },[])
-*/
   
+ 
   render() {
     
     
     return (
       <Wrapper>
         <Title> Employee Directory</Title>
-          
+        <h2>Sort By ..</h2>
+     
         <table className="table">
         <Table></Table>
          
